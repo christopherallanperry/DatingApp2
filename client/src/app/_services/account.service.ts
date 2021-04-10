@@ -28,6 +28,7 @@ export class AccountService {
     );
   }
 
+  // tslint:disable-next-line:typedef
   setCurrentUser(user: User) {
     this.currentUserSource.next(user);
   }
