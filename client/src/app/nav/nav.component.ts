@@ -26,4 +26,9 @@ export class NavComponent implements OnInit {
       }
     );
   }
+
+  // tslint:disable-next-line:typedef
+  logout() {
+    this.loggedIn = false;
+  }
 }
